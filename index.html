@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>The Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+
+  <!--  Header Section-->
+  <div class="row header">
+    <div class="col-xs-12 text-center">
+      <h1 id = "bigtoptext">Trumpquoter 9000</h1>
+    </div>
+  </div>
+  
+  
+  <!--  Content Area-->
+  <div class="row content">
+    <div class="col-md-4 col-sm-6">
+      <div class= "trump-pic">
+<canvas id="icon1" width="300" height="300"></canvas>
+        
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+
+        <div class = "forecast-info">
+          <ul>
+            <li class = "report" id = "temp"></li>
+            <li class = "report" id = "summary"></li>
+            <li class = "report" id = "precip-probability"></li>
+          </ul>
+          
+
+        </div>
+    </div>
+          <div class="col-md-4 col-sm-6" id = "ftocholder">
+          <button class = "button" id = "ftoc" onClick="toggleClick();"> Celsius</button>
+    </div>
+  </div>
+
+
+  </div>
+  <!--  Footer Area-->
+  <div class="row footer">
+    <div class="col-xs-12 text-center">
+      <p>BY JD --- <a href="https://darksky.net/poweredby/">Powered by Dark Sky</a></p>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
